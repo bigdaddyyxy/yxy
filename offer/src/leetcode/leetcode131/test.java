@@ -1,4 +1,4 @@
-package leetcode131;
+package leetcode.leetcode131;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -41,7 +41,9 @@ public class test {
 
     //是否回文串
     public static boolean isHui(String s){
-        if(s.length()==1) return true;
+        if(s.length()==1) {
+            return true;
+        }
         int left = 0;
         int right = s.length()-1;
 
