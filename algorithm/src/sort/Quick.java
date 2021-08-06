@@ -11,8 +11,6 @@ public class Quick {
     }
 
     public static void QuickSort(int[] array,int low,int hight){
-
-
         //if (array.length < 1 || low < 0 || hight >= array.length || low > hight) return null;
         if(low < hight){
             int privotpos = partition(array,low,hight);

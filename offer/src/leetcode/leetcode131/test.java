@@ -10,9 +10,7 @@ public class test {
         String s = "aab";
         List<List<String>> partition = partition(s);
         System.out.println(partition);
-
     }
-
 
     public static List<List<String>> partition(String s) {
         List<List<String>> res = new ArrayList<List<String>>();

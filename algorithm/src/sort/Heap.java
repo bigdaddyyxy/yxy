@@ -1,7 +1,5 @@
 package sort;
 
-import java.util.Arrays;
-
 public class Heap {
 
     public static void main(String[] args) {
@@ -10,7 +8,6 @@ public class Heap {
         for (int i : array) {
             System.out.print(i + " ");
         }
-
     }
 
    public static void heapSort(int[] array){
@@ -28,12 +25,6 @@ public class Heap {
        }
    }
 
-    /**
-     * 调整堆
-     * @param array
-     * @param index
-     * @param length
-     */
     static void headAdjust(int[] array, int index, int length){
        //当前节点下标
        int max = index;
